@@ -1,5 +1,4 @@
-﻿#Export-all-users-to-local-CSV
-# Export-all-users-to-local-CSV
+﻿# Export-all-users-to-local-CSV
 $users = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users" -Headers $headers
 
 $exportPath = "$env:USERPROFILE\Desktop\AllUsers.csv"
